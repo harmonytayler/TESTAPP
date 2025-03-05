@@ -14,7 +14,6 @@ function Welcome() {
 function Band({name, members, formed}: {name:string; members:string; formed:number;}) {
   return(
     <>
-      <img />
       <h2>{name}</h2>
       <h3>Original Members: {members}</h3>
       <h3>Formed: {formed}</h3>
